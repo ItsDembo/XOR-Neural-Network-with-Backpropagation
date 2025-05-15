@@ -35,7 +35,7 @@ markdown
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/Neural-Network-backwards-Propagation.git
+git clone https://github.com/ItsDembo/Neural-Network-backwards-Propagation.git
 cd Neural-Network-backwards-Propagation
 pip install -r requirements.txt
 Project Structure
