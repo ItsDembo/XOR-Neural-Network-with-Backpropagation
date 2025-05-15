@@ -89,7 +89,7 @@ epochs	100,000	Training iterations
 
 ## Results
 Example output:
-
+```
 Input [0 0]: Pred 0.0123 (Target 0)
 Input [0 1]: Pred 0.9876 (Target 1)
 Input [1 0]: Pred 0.9872 (Target 1)
@@ -97,7 +97,7 @@ Input [1 1]: Pred 0.0128 (Target 0)
 Final MAE: 0.0010
 Training Error
 Training error over epochs
-
+```
 ## Requirements
 Python 3.8+
 
