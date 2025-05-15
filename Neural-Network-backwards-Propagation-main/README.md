@@ -97,7 +97,7 @@ Final MAE: 0.0010
 Training Error
 Training error over epochs
 
-Requirements
+#Requirements
 Python 3.8+
 
 NumPy
