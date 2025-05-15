@@ -40,7 +40,7 @@ cd Neural-Network-backwards-Propagation
 pip install -r requirements.txt
 Project Structure
 ```
-.
+```
 ├── xor_nn/                   # Core implementation
 │   ├── __init__.py
 │   └── model.py              # XORNeuralNetwork class
@@ -51,7 +51,8 @@ Project Structure
 │
 ├── requirements.txt          # Dependencies
 └── README.md                 # This file
-Usage
+```
+#Usage
 Basic Example
 ```python
 from xor_nn.model import XORNeuralNetwork
