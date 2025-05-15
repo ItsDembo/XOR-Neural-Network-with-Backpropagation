@@ -7,7 +7,6 @@ markdown
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Results](#results)
