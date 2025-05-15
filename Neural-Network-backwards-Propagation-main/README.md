@@ -1,7 +1,7 @@
 markdown
 # XOR Neural Network with Backpropagation
 
-![XOR Decision Boundary](examples/xor_results.png)  
+![XOR Decision Boundary](Neural-Network-backwards-Propagation-main/xor_results.png)  
 *A neural network solving the XOR problem with visualized decision boundary*
 
 ## Table of Contents
