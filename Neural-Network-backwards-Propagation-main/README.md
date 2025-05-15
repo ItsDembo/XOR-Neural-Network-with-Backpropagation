@@ -52,7 +52,7 @@ Project Structure
 ├── requirements.txt          # Dependencies
 └── README.md                 # This file
 ```
-##Usage
+## Usage
 Basic Example
 ```python
 from xor_nn.model import XORNeuralNetwork
@@ -69,7 +69,7 @@ y = np.array([0, 1, 1, 0])
 nn.train(X, y, lr=0.1, epochs=100000)
 predictions = nn.forward(X)[1]
 ```
-##Running Examples
+## Running Examples
 Basic text output:
 
 ```bash
@@ -80,14 +80,14 @@ Visual analysis (generates plots):
 ```bash
 python -m examples.visualization
 ```
-##Configuration
+## Configuration
 Parameter	Default	Description
 hidden_size	2	Neurons in hidden layer
 random_seed	None	Seed for reproducible results
 lr	0.1	Learning rate
 epochs	100,000	Training iterations
 
-##Results
+## Results
 Example output:
 
 Input [0 0]: Pred 0.0123 (Target 0)
@@ -98,7 +98,7 @@ Final MAE: 0.0010
 Training Error
 Training error over epochs
 
-#Requirements
+## Requirements
 Python 3.8+
 
 NumPy
