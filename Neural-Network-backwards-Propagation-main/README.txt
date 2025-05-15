@@ -25,9 +25,9 @@ A Python implementation of a 2-layer neural network that learns the XOR function
 
 ## Installation
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 Project Structure
 .
 ├── xor_nn/                   # Core implementation
@@ -42,7 +42,7 @@ Project Structure
 └── README.md                 # This file
 Usage
 Basic Example
-'''python
+```python
 from xor_nn.model import XORNeuralNetwork
 import numpy as np
 
@@ -56,18 +56,18 @@ y = np.array([0, 1, 1, 0])
 # Train and evaluate
 nn.train(X, y, lr=0.1, epochs=100000)
 predictions = nn.forward(X)[1]
-'''
+```
 Running Examples
 Basic text output:
 
-'''bash
+```bash
 python -m examples.basic_example
-'''
+```
 Visual analysis:
 
-'''bash
+```bash
 python -m examples.visualization
-'''
+```
 This will generate:
 
 training_error.png: Learning curve
